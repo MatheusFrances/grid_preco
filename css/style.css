@@ -1,0 +1,116 @@
+body{
+    font-family: tahoma;
+    width: 50%;
+    margin: auto;
+    background-color: #1d2733;
+    letter-spacing: 1px;
+}
+
+.container{
+    width: 100%;
+    margin-top: 15%;
+    overflow: auto;
+    background-color: #eb3b5a;
+    border-radius: 10px;
+    box-shadow: 15px 17px 15px #0e0f11c7;
+}
+
+.top{
+    background-color: #eb3b5a;
+    height: 300px;
+    box-sizing: border-box;
+}
+
+.top h1{
+    padding: 50px 30px 0;
+    color: #da9498;
+}
+
+.top h2{
+    padding: 0 30px;
+    font-size: 20px;
+    color: #da9498;
+}
+
+.top p{
+    padding: 20px 30px;
+    line-height: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ebadb0;
+}
+
+.bottom-left{
+    background-color: #48dbfb;
+    top: 50%;
+    float: left;
+    width: 50%;
+    height: 300px;
+    box-sizing: border-box;
+    padding: 25px 30px;
+    position: relative;
+}
+
+.bottom-left h2{
+    font-size: 20px;
+    color: white;
+}
+
+.bottom-left h3{
+    font-size: 26px;
+    color: white;
+}
+
+.bottom-left span{
+    font-size: 16px;
+    color: white;
+}
+
+.bottom-left p{
+    margin-top: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+
+.bottom-left button{
+    display: block;
+    width: 50%;
+    height: 50px;
+    margin: 35px auto;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 22px;
+    background-color: #eb3b5a;
+    color: #da9498;
+    transition: 0.3s linear;
+}
+
+.bottom-left button:hover{
+    background-color: #df2b34;
+    color: white;
+}
+
+.bottom-right{
+    background-color: #0abde3;
+    float: right;
+    width: 50%;
+    height: 300px;
+    box-sizing: border-box;
+    padding: 25px 30px;
+}
+
+.bottom-right h2{
+    font-size: 20px;
+    color: white;
+}
+
+.bottom-right ul{
+    list-style: none;
+    padding-left: 0;
+    line-height: 1.5;
+    font-weight: bold;
+    color: white;
+}
